@@ -1,10 +1,6 @@
 # Simulador de Máquina de Mealy em C
 Sobre: https://pt.wikipedia.org/wiki/M%C3%A1quina_de_Mealy
 
-Cadeia de caracteres de entrada recomendados para o automato:
-- aabaaabab
-- acaacc
-
 ### Run
 ```
 # Clone o repositório
@@ -16,3 +12,7 @@ cd mealy-machine-em-c/
 # Compile o arquivo em C e execute o arquivo compilado
 gcc -o mealy mealy-machine.c && ./mealy
 ```
+
+Cadeia de caracteres de entrada recomendados para o automato:
+- aabaaabab
+- acaacc
